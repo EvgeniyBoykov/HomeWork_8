@@ -20,6 +20,7 @@ public class MyWindow extends JFrame {
         btn2.addActionListener(actionListener);
 
         add(panel, BorderLayout.SOUTH);
+
         setVisible(true);
     }
 }

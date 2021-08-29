@@ -31,7 +31,6 @@ public class HomeWork_8  {
         long endTime = System.nanoTime();
         float result = (endTime - startTime) * 0.000000001f;
         System.out.println(result);
-
         new MyWindow();
     }
 }
