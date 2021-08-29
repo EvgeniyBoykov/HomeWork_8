@@ -8,7 +8,6 @@ public class MyWindow extends JFrame {
         setLocation(350, 400);
         setSize(600, 400);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
         JPanel panel = new JPanel(new GridLayout(1,2));
 
         JButton btn1 = new JButton("Push the button");
